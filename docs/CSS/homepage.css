@@ -1,0 +1,157 @@
+
+.everything {
+  width: 100;
+}
+
+title {display:none;}
+
+.gotoplay a {
+text-decoration: none;
+color: #1f464c;
+margin-bottom: 0;
+}
+h1 {
+font-family:'Stentiga', arial;
+font-size: 1.8em;
+font-weight: 500;
+color:#1f464c;
+text-align: center;
+padding: 20px 0;
+margin: 0 auto;
+
+}
+
+img {
+  width: 100%;
+
+}
+
+body {
+  margin: 0;
+  background:rgb(62, 131, 143)
+}
+
+
+
+.introduction {
+  float: none;
+  margin-top: 30px;
+}
+.performed {
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: rgb(233, 197, 108);
+  border: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.printed {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: rgb(233, 197, 108);
+  border: 0;
+  margin-top: 0;
+  text-align: center;
+}
+p {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:1.1em;
+  font-weight: 300;
+  color:rgb(222, 235, 239);
+  border: 3px solid #1f464c;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:700px) {
+.everything {
+  width: 60%;
+  margin: 0 auto;
+  max-width:900px;
+  border: 2px solid rgb(233, 197, 108);
+  border-top: 0;
+  border-bottom: 0;
+}
+title {display:none;}
+
+a.gotoplay{
+text-decoration: none;
+color: #1f464c;
+margin-bottom: 0;
+}
+h1 {
+font-family:'Stentiga', arial;
+font-size: 1.8em;
+font-weight: 500;
+color:#1f464c;
+text-align: center;
+padding: 20px 0;
+margin: 0 auto;
+
+}
+
+img {
+  width: 48%;
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  background:rgb(62, 131, 143)
+}
+
+audio {width: 50%;}
+
+.introduction {
+  float: right; width: 48%;
+  margin-top: 30px;
+}
+.performed {
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: rgb(233, 197, 108);
+  border: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.printed {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: rgb(233, 197, 108);
+  border: 0;
+  margin-top: 0;
+}
+p {
+  font-family:'Josefin Sans', sans-serif;
+  font-size:1.1em;
+  font-weight: 300;
+  color:rgb(222, 235, 239);
+  border: 3px solid #1f464c;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 15px 10px 0;
+
+}
+
+}
